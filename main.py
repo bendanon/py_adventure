@@ -14,7 +14,7 @@ metafile = "meta.json"
 if __name__ == "__main__":
     metafile = MetadataIO(metafile)
     terminal_controller = TerminalController()
-    with AdventureIO(os.path.join(adventure_folder, adventure_chapters)) as adventure:
+    with AdventureIO(os.path.join(os.path.curdir, adventure_folder, adventure_chapters)) as adventure:
         adventure_handler = AdventureHandler(terminal_controller, 
                                             adventure, 
                                             CliChapterHandler(terminal_controller))
