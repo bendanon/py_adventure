@@ -5,7 +5,7 @@
             "key"    : 0,
             "title"  : "Introduction",
             "story"  : ["Well... you know you are a cyborg and you know your name is pythonbeard. ",
-                        "not match else. you here some voice saying \"quick some water got in ",
+                        "not much else. you here some voice saying \"quick some water got in ",
                         "his head, make sure he response\" a second voice pops saying:"],
             "riddle" : ["\"CAPTAIN! CAPTAIN! answer with 'hello world' if you can here me\"",
                         "(write you answer in brain_module.py)"],
