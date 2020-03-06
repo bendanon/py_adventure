@@ -57,7 +57,7 @@ class CliChapterHandler(IChapterHandler):
         """
         # Print chapter info
         self.controller.secondary_title = \
-            "Chapter {} : {}".format(to_roman(chapter.key), chapter.title)
+            "Chapter {} : {}".format(to_roman(chapter.key + 1), chapter.title)
         
         self.controller.first_text = chapter.story
         self.controller.second_text = chapter.riddle

@@ -9,7 +9,7 @@ class MetaKeys:
 
 @singletone
 class MetadataIO(object):
-    def __init__(self, filename: str="", default_chapter: str="1"):
+    def __init__(self, filename: str="", default_chapter: int=0):
         super().__init__()
         self.metadata_file = filename
         self.cache = {
