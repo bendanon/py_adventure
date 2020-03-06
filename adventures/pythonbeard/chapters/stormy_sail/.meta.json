@@ -1,0 +1,4 @@
+{
+    "main": "main.py",
+    "symlink": "talk_module.py"
+}
