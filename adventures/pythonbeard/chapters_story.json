@@ -1,0 +1,21 @@
+{
+    "adventure_title" : "Python-beard the cyborg pirate",
+    "chapters"        : [
+        {
+            "key"    : 0,
+            "title"  : "Introduction",
+            "story"  : "Introduction story",
+            "riddle" : "execute the code and type the result hash",
+            "hint"   : "execute the command line",
+            "answer" : "1"
+        },
+        {
+            "key"    : 1,
+            "title"  : "Stormy Sail",
+            "story"  : "storm story",
+            "riddle" : "execute the code and type the result hash",
+            "hint"   : "execute the command line",
+            "answer" : "1"
+        }
+    ]
+}
