@@ -5,9 +5,9 @@
             "key"    : 0,
             "title"  : "Introduction",
             "story"  : ["Well... you know you are a cyborg and you know your name is pythonbeard. ",
-                        "not much else. you here some voice saying \"quick some water got in ",
-                        "his head, make sure he response\" a second voice pops saying:"],
-            "riddle" : ["\"CAPTAIN! CAPTAIN! answer with 'hello world' if you can here me\"",
+                        "Not much else. You here some voice saying \"Quick some water got in ",
+                        "his head, reboot him and make sure he response\" a second voice pops and says:"],
+            "riddle" : ["\"CAPTAIN! CAPTAIN! Answer with 'hello world' if you can here me\"",
                         "(write you answer in brain_module.py)"],
             "hint"   : "use the command print in order to print hello world",
             "answer" : "fdbd8e75a6"
@@ -15,9 +15,13 @@
         {
             "key"    : 1,
             "title"  : "Stormy Sail",
-            "story"  : ["storm story"],
-            "riddle" : "execute the code and type the result hash",
-            "hint"   : "execute the command line",
+            "story"  : ["\"Are you conscious? Can you speak with me?\". You are starting to",
+                        "understand that you are in the middle of a massive thunderstorm.",
+                        "\"Are you OK?\" the voice started whipping \"I think a thunder hit",
+                        "him, what should I do?\". "],
+            "riddle" : ["SPEAK with him. Just fix the 'Ahoy matey' string to you speaking module",
+                        "to let him know you are fine." ],
+            "hint"   : "In the speak function return the 'Ahoy matey' string (the result is case sensitive)",
             "answer" : "3c103876f8"
         }
     ]
