@@ -23,6 +23,19 @@
                         "to let him know you are fine." ],
             "hint"   : "In the speak function return the 'Ahoy matey' string (the result is case sensitive)",
             "answer" : "3c103876f8"
+        },
+        {
+            "key"    : 2,
+            "title"  : "Tight Spots",
+            "story"  : ["\"Thank god you're up, we need you calculations. We had the worst luck I've",
+                        "ever seen. The storm caught us in the worst place\". \"Why? where are we?\"",
+                        "\"What's the matter with you?\" the voice snapped \"We're in the SEA OF THE",
+                        "VERY SHARPS ROCKS and we need your fast calculations to check where we should pass\".",
+                        "Don't tell him but you arithmetic unit is fucked up right now luckily the vision is just fine"],
+            "riddle" : ["write a quick patch to compare the width of the ship and the width of the path",
+                        "return true if you can pass and false if you need to find a new path." ],
+            "hint"   : "Check \"Comparisons\" in the cheat sheet to see how to write comparisons",
+            "answer" : "562109b054"
         }
     ]
 }

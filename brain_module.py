@@ -1,1 +1,0 @@
-./adventures/pythonbeard/chapters/stormy_sail/talk_module.py

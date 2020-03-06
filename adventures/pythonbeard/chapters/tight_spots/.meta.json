@@ -1,0 +1,4 @@
+{
+    "main": "main.py",
+    "symlink": "arithmetic_module.py"
+}
