@@ -59,8 +59,12 @@ class CliChapterHandler(IChapterHandler):
         self.controller.secondary_title = \
             "Chapter {} : {}".format(to_roman(chapter.key + 1), chapter.title)
         
-        self.controller.first_text = chapter.story
-        self.controller.second_text = chapter.riddle
+        self.controller.first_text = ("\r\n ". join(chapter.story) 
+                                        if isinstance(chapter.story, list) 
+                                        else chapter.story)
+        self.controller.second_text = ("\r\n ". join(chapter.riddle) 
+                                        if isinstance(chapter.riddle, list) 
+                                        else chapter.riddle)
                 
         self.controller.hidden_text = "Hint:    " + chapter.hint
 

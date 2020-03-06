@@ -1,21 +1,24 @@
 {
-    "adventure_title" : "Python-beard the cyborg pirate",
+    "adventure_title" : "Pythonbeard the cyborg pirate",
     "chapters"        : [
         {
             "key"    : 0,
             "title"  : "Introduction",
-            "story"  : "Introduction story",
-            "riddle" : "execute the code and type the result hash",
-            "hint"   : "execute the command line",
-            "answer" : "1"
+            "story"  : ["Well... you know you are a cyborg and you know your name is pythonbeard. ",
+                        "not match else. you here some voice saying \"quick some water got in ",
+                        "his head, make sure he response\" a second voice pops saying:"],
+            "riddle" : ["\"CAPTAIN! CAPTAIN! answer with 'hello world' if you can here me\"",
+                        "(write you answer in brain_module.py)"],
+            "hint"   : "use the command print in order to print hello world",
+            "answer" : "fdbd8e75a6"
         },
         {
             "key"    : 1,
             "title"  : "Stormy Sail",
-            "story"  : "storm story",
+            "story"  : ["storm story"],
             "riddle" : "execute the code and type the result hash",
             "hint"   : "execute the command line",
-            "answer" : "1"
+            "answer" : "3c103876f8"
         }
     ]
 }
