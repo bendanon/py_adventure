@@ -11,6 +11,7 @@ adventure_folder = "adventures/pythonbeard"
 chapters_folder = "chapters"
 adventure_chapters = "chapters_story.json"
 
+editable_file = "brain_module.py"
 
 if __name__ == "__main__":
     # Create the meta singletone
@@ -41,11 +42,11 @@ if __name__ == "__main__":
         meta = json.load(metafile)
     
     # Create symlink
-    if os.path.lexists("./edit_this.py"):
-        os.remove("./edit_this.py")
+    if os.path.lexists(editable_file):
+        os.remove(editable_file)
     
     os.symlink(os.path.join(chapter_env,
-                            meta["symlink"]), "./edit_this.py")
+                            meta["symlink"]), editable_file)
     # Execute running file
     exec(open(os.path.join(chapter_env, 
                            meta["main"])).read())
