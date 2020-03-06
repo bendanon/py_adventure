@@ -1,6 +1,7 @@
 from typing import Callable, Generator, Tuple
 
 from engine.types.chapter import Chapter
+from engine.types.aliases import InputHandler, InputResult
 from UI.chapter_handler import IChapterHandler
 from UI.terminal_controller import TerminalController
 from utils.roman_numeric import to_roman
@@ -18,17 +19,17 @@ class CliChapterHandler(IChapterHandler):
         """
         self.controller = controller
     
-    def parse_answer(self, chapter: Chapter) -> Callable[[str], Tuple[bool, str]]:
+    def parse_answer(self, chapter: Chapter) -> InputHandler:
         """
         Created a function which parses a given user input.
         
         :param chapter: the chapter to check.
         :type chapter: Chapter
         :return: function which parses a given user input.
-        :rtype: Callable[[str], Tuple[bool, str]]
+        :rtype: InputHandler
         """
 
-        def input_handler(user_input: str) -> Tuple[bool, str]:
+        def input_handler(user_input: str) -> InputResult:
             """
             Parse  users input
             
@@ -36,7 +37,7 @@ class CliChapterHandler(IChapterHandler):
             :type user_input: str
             :return: first pos  - continue getting input or not.
                      second pos - string to print.
-            :rtype: Tuple[bool, str]
+            :rtype: InputResult
             """
             if user_input == "help":
                 self.controller.enable_hidden_text()

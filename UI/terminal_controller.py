@@ -1,6 +1,8 @@
 import shutil
 from typing import Callable, Tuple
 
+from engine.types.aliases import InputHandler
+
 MIN_HEIGHT = 20 # The minimum height of the console
 
 class TerminalController(object):
@@ -52,8 +54,7 @@ class TerminalController(object):
         """
         print("\033[{};{}H".format(y, 0), end="")
     
-    def get_input(self, input_callback: 
-                    Callable[[str], Tuple[bool, str]] = lambda a: (a, False) \
+    def get_input(self, input_callback: InputHandler = lambda a: (a, False) \
                                                             if a != "q" \
                                                             else (a, True)) \
                                                     -> bool:
@@ -63,7 +64,7 @@ class TerminalController(object):
         :param input_callback: A function which processes the user input,
                                returns print value and whether or not to continue
                                getting input.
-        :type input_callback: Callable[[str], Tuple[bool, str]], optional
+        :type input_callback: InputHandler, optional
         :return: the boolean result of the callable method.
         :rtype: bool
         """
@@ -143,16 +144,3 @@ class TerminalController(object):
         self.view_hidden = True
         self.refrash()
 
-
-if __name__ == "__main__":
-    import time
-    
-    terminal = TerminalController()
-
-    terminal.main_title = "hello"
-    terminal.secondary_title = "1234567secondary"
-
-    terminal.refrash()
-
-    while terminal.get_input():
-        pass
