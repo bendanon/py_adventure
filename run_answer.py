@@ -7,7 +7,7 @@ import hashlib
 import subprocess
 import json
 
-adventure_folder = "adventures\\pythonbeard"    
+adventure_folder = "adventures/pythonbeard"    
 chapters_folder = "chapters"
 adventure_chapters = "chapters_story.json"
 
@@ -19,7 +19,7 @@ if __name__ == "__main__":
     # Get chapters info
     chapter_key = MetadataIO().current_chapter
 
-    with AdventureIO(os.path.join(adventure_folder, adventure_chapters)) as adventure:
+    with AdventureIO(os.path.join(os.path.curdir, adventure_folder, adventure_chapters)) as adventure:
         chapter_title = adventure.chapters[chapter_key].title
     
     # Set the currect folder name
@@ -41,9 +41,11 @@ if __name__ == "__main__":
         meta = json.load(metafile)
     
     # Create symlink
-    os.remove("edit_this.py")
+    if os.path.lexists("./edit_this.py"):
+        os.remove("./edit_this.py")
+    
     os.symlink(os.path.join(chapter_env,
-                            meta["symlink"]), "edit_this.py")
+                            meta["symlink"]), "./edit_this.py")
     # Execute running file
     exec(open(os.path.join(chapter_env, 
                            meta["main"])).read())
