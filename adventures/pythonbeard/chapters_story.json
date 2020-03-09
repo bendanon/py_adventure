@@ -64,17 +64,29 @@
         },
         {
             "key"    : 5,
+            "title"  : "Find a Way",
+            "story"  : ["\"So You know my name... That doesn't prove anything... Lets see if you",
+                        "can find your path to the north\" Bob whined. \"How dare you challenge me?\"",
+                        "You shouted \"That's not even hard\". You did remember that the north is",
+                        "and always was under the brightest star (obviously wrong but got enough for",
+                        "the training)."],
+            "riddle" : ["Look at the sky and search for the star with the maximum brightness"],
+            "hint"   : "Read about the max method, it can also be found using for loops.",
+            "answer" : "580adf23c3"
+        },
+        {
+            "key"    : 6,
             "title"  : "Lets sail",
             "story"  : ["\"So you are not that fucked up. I think we'll manage\" Bob said \"Here's what",
                         "you will need to know: if we are in the open sea we can SAIL_FAST. 2: if we are",
                         "in shallow water then we need to SAIL_SLOW. 3: for the moral of the crew",
                         "STOP if you can spot a whale\"."],
             "riddle" : ["Write an autopilot method for the sailing. use the code constants"],
-            "hint"   : "Reading about if/else statements.",
+            "hint"   : "Read about if/else statements.",
             "answer" : "0f5f8724b1"
         },
         {
-            "key"    : 6,
+            "key"    : 7,
             "title"  : "Parking",
             "story"  : ["That was a great sail, and you and your crew even got to see a whale on your way.",
                         "You are now at the biggest pirate colony 'GitHub' where the worst gits around",
@@ -82,7 +94,7 @@
                         "along the canal and see if there is any place big enough to place your ship."],
             "riddle" : ["Search a perfect parking spot meaning, just big enough for the ship.",
                         "Closest to the size from above."],
-            "hint"   : "Reading about if/else statements.",
+            "hint"   : "Useful methods can be: for, min, (list_object).index(item)",
             "answer" : "6af11c8358"
         }
     ]

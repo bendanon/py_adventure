@@ -1,6 +1,7 @@
 from typing import List
 from adventures.pythonbeard.common.ship import Ship
 
+# A type alias which define an index to be an integer
 Index = int
 
 def search_parking(ship: Ship, shore: List[int]) -> Index:

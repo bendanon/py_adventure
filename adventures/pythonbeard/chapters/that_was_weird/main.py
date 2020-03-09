@@ -12,4 +12,4 @@ if __name__ == "__main__":
     user_res = get_name(pb_subconscious, "Bo")
 
     print("Pythonbeards says: {}".format(user_res))
-    print(get_hash(user_res))
+    print("Result : {}".format(get_hash(user_res)))

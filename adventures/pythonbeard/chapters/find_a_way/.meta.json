@@ -1,0 +1,4 @@
+{
+    "main": "main.py",
+    "symlink": "searching_module.py"
+}

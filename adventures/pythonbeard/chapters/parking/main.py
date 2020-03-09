@@ -1,4 +1,3 @@
-import random
 from adventures.pythonbeard.chapters.parking.searching_module import search_parking
 from adventures.pythonbeard.common.ship import Ship
 from utils.level_key import get_hash

@@ -20,4 +20,4 @@ if __name__ == "__main__":
         print("Crew response: {}".format("Aye Aye!!"))
         user_res += curr_res
 
-    print(get_hash(user_res))
+    print("Result : {}".format(get_hash(user_res)))
