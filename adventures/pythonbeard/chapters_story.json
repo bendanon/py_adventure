@@ -61,6 +61,17 @@
                         "which starts with 'Bo'" ],
             "hint"   : "Try reading about for/while loops and if statements.",
             "answer" : "b7808c5991"
+        },
+        {
+            "key"    : 5,
+            "title"  : "Lets sail",
+            "story"  : ["\"So you are not that fucked up. I think we'll manage\" Bob said \"Here's what",
+                        "you will need to know: if we are in the open sea we can SAIL_FAST. 2: if we are",
+                        "in shallow water then we need to SAIL_SLOW. 3: for the moral of the crew",
+                        "STOP if you can spot a whale\"."],
+            "riddle" : ["Write an autopilot method for the sailing. use the code constants"],
+            "hint"   : "Reading about if/else statements.",
+            "answer" : "0f5f8724b1"
         }
     ]
 }

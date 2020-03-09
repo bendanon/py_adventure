@@ -9,6 +9,8 @@ def get_name(subconscious: Subconscious, leading_chars: str) -> str:
     
     :param subconscious: Pythonbeard's subconscious.
     :type subconscious: Subconscious
+    :param leading_chars: the leading character to search in the name from the subconscious.
+    :type leading_chars: str
     """
     # Your code here:
     return list(filter(lambda name: name.startswith(leading_chars), subconscious.get_names()))[0]
