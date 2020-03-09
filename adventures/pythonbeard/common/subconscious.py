@@ -3,6 +3,9 @@ from typing import List
 class Subconscious(object):
     """
     The subconscious of a character. 
+    
+    Properties: 
+        - names  - the known names of the characters.
     """
 
     def __init__(self, names: List[str]=[]):

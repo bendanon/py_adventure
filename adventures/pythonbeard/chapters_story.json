@@ -57,7 +57,7 @@
                         "a good idea?\". \"You filthy rat, watch how you talk to you're captain\" you",
                         "answered. \"Lets see if you are fixable... My name start with 'Bo' can you",
                         "say my name now?\""],
-            "riddle" : ["Prove him that you can handle anything pull from our subconscious the first name",
+            "riddle" : ["Prove him that you can handle anything. Pull from our subconscious the first name",
                         "which starts with 'Bo'" ],
             "hint"   : "Try reading about for/while loops and if statements.",
             "answer" : "b7808c5991"
@@ -72,6 +72,18 @@
             "riddle" : ["Write an autopilot method for the sailing. use the code constants"],
             "hint"   : "Reading about if/else statements.",
             "answer" : "0f5f8724b1"
+        },
+        {
+            "key"    : 6,
+            "title"  : "Parking",
+            "story"  : ["That was a great sail, and you and your crew even got to see a whale on your way.",
+                        "You are now at the biggest pirate colony 'GitHub' where the worst gits around",
+                        "the world love to hangout. Resulting a massive parking problem. Lets try sailing",
+                        "along the canal and see if there is any place big enough to place your ship."],
+            "riddle" : ["Search a perfect parking spot meaning, just big enough for the ship.",
+                        "Closest to the size from above."],
+            "hint"   : "Reading about if/else statements.",
+            "answer" : "6af11c8358"
         }
     ]
 }

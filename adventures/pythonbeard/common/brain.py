@@ -5,6 +5,9 @@ class Brain(object):
     """
     This is pythonbead's brain here lays everything he knows,
     his actions, his thoughts and secrets. 
+
+    Properties:
+        - subconscious - subconscious of the brain.
     """
 
     def __init__(self, subconscious: Subconscious):
