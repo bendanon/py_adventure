@@ -4,9 +4,9 @@
         {
             "key"    : 0,
             "title"  : "Introduction",
-            "story"  : ["Well... you know you are a cyborg and you know your name is pythonbeard. ",
-                        "Not much else. You here some voice saying \"Quick some water got in ",
-                        "his head, reboot him and make sure he response\" a second voice pops and says:"],
+            "story"  : ["Well... you know you are a cyborg but not much else. You here some",
+                        "voice saying \"Quick some water got in his head, reboot him and ",
+                        "make sure he responses\" a second voice pops and says:"],
             "riddle" : ["\"CAPTAIN! CAPTAIN! Answer with 'hello world' if you can here me\"",
                         "(write you answer in brain_module.py)"],
             "hint"   : "use the command print in order to print hello world",
@@ -31,11 +31,23 @@
                         "ever seen. The storm caught us in the worst place\". \"Why? where are we?\"",
                         "\"What's the matter with you?\" the voice snapped \"We're in the SEA OF THE",
                         "VERY SHARPS ROCKS and we need your fast calculations to check where we should pass\".",
-                        "Don't tell him but you arithmetic unit is fucked up right now luckily the vision is just fine"],
+                        "Don't tell him but you arithmetic unit is fucked up right now. Luckily the vision is just fine"],
             "riddle" : ["write a quick patch to compare the width of the ship and the width of the path",
                         "return true if you can pass and false if you need to find a new path." ],
             "hint"   : "Check \"Comparisons\" in the cheat sheet to see how to write comparisons",
             "answer" : "562109b054"
+        },
+        {
+            "key"    : 3,
+            "title"  : "Sea Breeze",
+            "story"  : ["\"Few.. Finally got out of that damned place, that was a close call you know...\"",
+                        "said the voice \"Are you Fine captain? you behave weirdly? Why are looking at me",
+                        "like this?\". \"I fill fine matey\" you answered. \"It's like you don't even know me...",
+                        "Do you even know my name?\" he said back. You realize that you really did forgot",
+                        "his name."],
+            "riddle" : ["Try pulling from your subconscious the first name you know." ],
+            "hint"   : "print(help('some type')) will print given type's docstring.",
+            "answer" : "c05ec17b6e"
         }
     ]
 }
