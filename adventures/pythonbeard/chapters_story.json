@@ -138,6 +138,18 @@
         },
         {
             "key"    : 11,
+            "title"  : "Lets Sail Again",
+            "story"  : ["\"We are going to sail again pythonbeard but lets make sure you are prepared\"",
+                        "announced bob \"Now we need to make sure the wind help our ship proceed,",
+                        "If the wind speed is greater then 20km/h our sails should be half way down",
+                        "If the wind speed is lower then or equal to 20km/h our sails should be three",
+                        "quarters down and if the wind is slower the 11km/h our sails should be down.\""],
+            "riddle" : ["Implement the given instructions."],
+            "hint"   : "Make sure the units are correct",
+            "answer" : "875a99b10c"
+        },
+        {
+            "key"    : 12,
             "title"  : "",
             "story"  : ["",
                         "",
