@@ -96,6 +96,19 @@
                         "Closest to the size from above."],
             "hint"   : "Useful methods can be: for, min, (list_object).index(item)",
             "answer" : "6af11c8358"
+        },
+        {
+            "key"    : 8,
+            "title"  : "Search Yourself",
+            "story"  : ["\"That was a great parking captain\" said Bob \"But I think we must be in the",
+                        "books\". A man came to you and said \"The books mister. You mustn't park here",
+                        "unless you are written here\". He gives you the book, you opened it thinking",
+                        "1. Why there are books in the place of the worst pirates? 2. You probably in the",
+                        "books 3. You forgot how to read..."],
+            "riddle" : ["Write a file reading module for Pythonbeard and search his name if the given file",
+                        "You do understand that each line is a new name."],
+            "hint"   : "You need a for loop, the open() function and readline. search online there are many examples",
+            "answer" : "606e2772cb"
         }
     ]
 }
