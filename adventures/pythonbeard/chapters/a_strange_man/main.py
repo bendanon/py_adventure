@@ -8,13 +8,6 @@ triangle = [
     Point(6,0)
 ]
 
-square = [
-    Point(0,0),
-    Point(0,6),
-    Point(6,6),
-    Point(6,0)
-]
-
 if __name__ == "__main__":
 
     match = center_of_polygon(triangle)

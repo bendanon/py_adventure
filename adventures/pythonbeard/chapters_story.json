@@ -125,6 +125,19 @@
         },
         {
             "key"    : 10,
+            "title"  : "Map Reading",
+            "story"  : ["\"Wow!!! that was the fastest calculation I've ever seen. What are you?",
+                        "never mind take this map, you must find it.\" The strange man gives you",
+                        "his map. \"You know you can't go underwater right?\" Bob noted (Well shut",
+                        "up Bob. One more comment like this one and I'll murder you). \"Anyway... we can't just",
+                        "go and sail we need to calculate our way precisely and sort the destinations\""],
+            "riddle" : ["I've already picked up out checkpoints, but can you sort them please?",
+                        "Assume you are at Point(0, 0). Sort points by distance from you."],
+            "hint"   : "Use the sorted function",
+            "answer" : "6f9279e958"
+        },
+        {
+            "key"    : 11,
             "title"  : "",
             "story"  : ["",
                         "",
