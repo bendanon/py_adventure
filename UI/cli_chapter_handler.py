@@ -42,6 +42,8 @@ class CliChapterHandler(IChapterHandler):
             if user_input == "help":
                 self.controller.enable_hidden_text()
                 return True, ""
+            if user_input == "exit":
+                return False, ""
             else:
                 chaper_result = chapter.check_answer(user_input)
                 return not chaper_result, "Well done!" if chaper_result \
