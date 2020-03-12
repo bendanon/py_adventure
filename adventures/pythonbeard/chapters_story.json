@@ -109,6 +109,32 @@
                         "You do understand that each line is a new name."],
             "hint"   : "You need a for loop, the open() function and readline. search online there are many examples",
             "answer" : "606e2772cb"
+        },
+        {
+            "key"    : 9,
+            "title"  : "A Strange Man",
+            "story"  : ["\"Well that was an hustle...\" said Bob \"I think i need an ale right now...",
+                        "Are you coming\". Well... You don't anything better to do right now. You get",
+                        "to \"The Sunken Norwegian\" and you see there a weird man talking \"There is a place",
+                        "called Atlantis! It's real. You can even go there if you don't believe me.\" You can",
+                        "see him taking out an old map. He sees you and starts talking with you:"],
+            "riddle" : ["\"It's right here in the middle of the Bermuda Triangle\" he pointed at the triangle.",
+                        "Calculate where the center is. All you get are three coordinates."],
+            "hint"   : "Search how can you find the centroid of a triangle on a graph.",
+            "answer" : "e83eff1cdb"
+        },
+        {
+            "key"    : 10,
+            "title"  : "",
+            "story"  : ["",
+                        "",
+                        "",
+                        "",
+                        ""],
+            "riddle" : ["",
+                        ""],
+            "hint"   : "",
+            "answer" : ""
         }
     ]
 }
