@@ -150,6 +150,19 @@
         },
         {
             "key"    : 12,
+            "title"  : "The Kraken",
+            "story"  : ["\"WTF what are those?\" Shouted Bob while he pointed to sky. \"It's the Kraken\"",
+                        "You heard a sailor shouting. \"Not again!\" he shouted \"Why it always happens",
+                        "to me?!?\". You look a the sky and see giant tentacles crawling upwards.",
+                        "\"We need to shoot his wick spots quickly, find them and tell me where to shoot\"",
+                        ""],
+            "riddle" : ["Luckily your vision can spot strength of points.",
+                        "Write a function which finds the 10 weakest point in a given array."],
+            "hint"   : "List slicing can be very helpful.",
+            "answer" : "609f4a40a4"
+        },
+        {
+            "key"    : 13,
             "title"  : "",
             "story"  : ["",
                         "",
