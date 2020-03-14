@@ -1,0 +1,4 @@
+{
+    "main": "main.py",
+    "symlink": "reading_module.py"
+}

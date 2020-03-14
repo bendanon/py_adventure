@@ -189,6 +189,19 @@
         },
         {
             "key"    : 15,
+            "title"  : "Read the Code",
+            "story"  : ["While you were finding your way out you see saw a massive door",
+                        "above it you see \"xlivi mw e qet wyfqevmri erh e aixwymx ", 
+                        "hsarxlivi rs pmi\". you believe that this text was ciphered",
+                        "to confuse the intruders.",
+                        ""],
+            "riddle" : ["Try to decipher if the code. (below that you see the text c4).",
+                        ""],
+            "hint"   : "The C stands for caesar and the 4 is the key. strings a immutable.",
+            "answer" : "2a786e5124"
+        },
+        {
+            "key"    : 16,
             "title"  : "",
             "story"  : ["",
                         "",
