@@ -173,6 +173,32 @@
                         "This function should be 'endless' meaning whenever it gets called it return the matching command."],
             "hint"   : "Read about python Generators.",
             "answer" : "f20d98df86"
+        },
+        {
+            "key"    : 14,
+            "title"  : "Find a Way Out",
+            "story"  : ["After a short nap, you wake up and start to walk into the entangled jungle.",
+                        "",
+                        "",
+                        "",
+                        ""],
+            "riddle" : ["Write a function which selects the open path.",
+                        "If you haven't tried yet challenge your self with list comprehension"],
+            "hint"   : "Use the filter method.",
+            "answer" : "979324f1e3"
+        },
+        {
+            "key"    : 15,
+            "title"  : "",
+            "story"  : ["",
+                        "",
+                        "",
+                        "",
+                        ""],
+            "riddle" : ["",
+                        ""],
+            "hint"   : "",
+            "answer" : ""
         }
     ]
 }
