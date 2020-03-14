@@ -1,4 +1,4 @@
 {
     "main": "main.py",
-    "symlink": "searching_module.py"
+    "symlink": "geometry_module.py"
 }
