@@ -163,16 +163,16 @@
         },
         {
             "key"    : 13,
-            "title"  : "",
-            "story"  : ["",
-                        "",
-                        "",
-                        "",
-                        ""],
-            "riddle" : ["",
-                        ""],
-            "hint"   : "",
-            "answer" : ""
+            "title"  : "Deserted Island",
+            "story"  : ["Everything is black. You click your vision button, you're starting to remember what",
+                        "happened... [Flashback: Bob: \"How can you see how strong a point is? It doesn't",
+                        "make any sense\"] 'Stupid Bob' you thought 'The weird man told us not to comment",
+                        "on the story or he will murder us'. You regain your vision and you see the sunset.",
+                        "The sunset is breathtaking but you need to start a fire."],
+            "riddle" : ["Write in your adventure module a function which returns 'push' and 'pull' alternately.",
+                        "This function should be 'endless' meaning whenever it gets called it return the matching command."],
+            "hint"   : "Read about python Generators.",
+            "answer" : "f20d98df86"
         }
     ]
 }
