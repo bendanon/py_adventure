@@ -228,6 +228,19 @@
         },
         {
             "key"    : 18,
+            "title"  : "Atlantis",
+            "story"  : ["'I can believe it' you said to yourself 'We're finally here. The trip with",
+                        "the submarine is so much easier'. You reached a massive underwater gate",
+                        "and you see a transcript saying. 'In order to reach in you must prove you",
+                        "knowledge of the roman numeral counting, you will see a series of numbers",
+                        "write back the matching number in normal numbers'."],
+            "riddle" : ["Write a roman numeral to normal numbers translator.",
+                        "(I -> 1, II -> 2, IV -> 4, V -> 5, X -> 10, XL -> 40, L -> 50 ...)"],
+            "hint"   : "Ordering has a big impact in this method.",
+            "answer" : "d09f30c4b8"
+        },
+        {
+            "key"    : 19,
             "title"  : "",
             "story"  : ["",
                         "",
