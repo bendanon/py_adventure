@@ -286,10 +286,10 @@
                         "",
                         "",
                         ""],
-            "riddle" : ["Using simple TCP Socket sent the queen the message \"The dragon his here\"",
+            "riddle" : ["Using simple TCP Socket sent the queen the message \"The dragon is here\"",
                         "the ip of the queen is 127.0.0.1 at port 4200"],
             "hint"   : "You need to learn about socket.",
-            "answer" : ""
+            "answer" : "5468652064"
         },
         {
             "key"    : 23,
