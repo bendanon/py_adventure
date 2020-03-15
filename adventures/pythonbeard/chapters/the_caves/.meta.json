@@ -1,0 +1,4 @@
+{
+    "main": "main.py",
+    "symlink": "autopilot_module.py"
+}

@@ -254,15 +254,54 @@
         },
         {
             "key"    : 20,
-            "title"  : "",
-            "story"  : ["",
+            "title"  : "The Caves",
+            "story"  : ["\"This is him\" the queen was shocked \"That's the one we searched for...",
+                        "Only he can save us from the dragon in the caves. He's the one who plays",
+                        "chess\" the queen started walking and you followed into a tight cave. \"Go there\"",
+                        "she said, \"the dragon will attack soon, we need to find him and attack him",
+                        "first. call me when you're there I'll bring the army.\""],
+            "riddle" : ["Write an algorithm which help you reach the end of the cave.",
+                        ""],
+            "hint"   : "Read about backtracking in programing.",
+            "answer" : "147d6e4977"
+        },
+        {
+            "key"    : 21,
+            "title"  : "The Sphinx",
+            "story"  : ["\"Who is the pirate which disturbs my sleep?\" A deep voice echo through",
+                        "the caves. \"It is I, Pythonbeard, I need to pass and find the dragon to",
+                        "save the city of Atlantis\" you answered. \"Then first answer me that...\"",
                         "",
+                        ""],
+            "riddle" : ["\"In the language of the mighty regex gods write a law which defines",
+                        "a roman number\" return a regular expression string"],
+            "hint"   : "Learn about regular expression",
+            "answer" : ""
+        },
+        {
+            "key"    : 22,
+            "title"  : "Call the Queen",
+            "story"  : ["\"You shell pass\" said the sphinx. You continue going down the caves and",
+                        "now you can see the gangetic sleeping blue water dragon.",
                         "",
                         "",
                         ""],
-            "riddle" : ["",
+            "riddle" : ["Using simple TCP Socket sent the queen the message \"The dragon his here\"",
+                        "the ip of the queen is 127.0.0.1 at port 4200"],
+            "hint"   : "You need to learn about socket.",
+            "answer" : ""
+        },
+        {
+            "key"    : 23,
+            "title"  : "The War",
+            "story"  : ["This is it... you here a massive army going down the path you sent them...",
+                        "The reach the sphinx and give your answer. They reach the dragon and start",
+                        "to fight him... and he fights back hard. But you know... That with enough",
+                        "effort using python you can demolish and fight through anything that comes up.",
+                        "Now you have most of the modules and you can manage on you own."],
+            "riddle" : ["Press enter and the game will end",
                         ""],
-            "hint"   : "",
+            "hint"   : "You were pythonbeard all this time and you wrote you own python modules",
             "answer" : ""
         }
     ]
