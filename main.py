@@ -5,11 +5,7 @@ from engine.IO.metadata import MetadataIO
 from UI.adventure_handler import AdventureHandler
 from UI.cli_chapter_handler import CliChapterHandler
 from UI.terminal_controller import TerminalController
-
-adventure_folder = "adventures/pythonbeard"        
-adventure_chapters = "chapters_story.json"
-
-metafile = "meta.json"
+from definitions import metafile, adventure_chapters, adventure_folder
 
 if __name__ == "__main__":
     metafile = MetadataIO(metafile)

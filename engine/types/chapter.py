@@ -1,6 +1,7 @@
 import os
 
-SYMLINK_NAME = "edit_this.py"
+from definitions import editable_file
+from utils.symlink_factory import create_symlink
 
 class Chapter:
     """
@@ -46,7 +47,7 @@ class Chapter:
         """
         Startup the chapter
         """
-        pass
+        create_symlink(editable_file, self.title)
     
     def shutdown(self):
         """

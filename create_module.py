@@ -1,5 +1,7 @@
 from engine.IO.metadata import MetadataIO
 from engine.IO.adventure import AdventureIO
+from utils.symlink_factory import create_symlink
+from definitions import *
 
 import shutil
 import os
@@ -7,15 +9,9 @@ import hashlib
 import subprocess
 import json
 
-adventure_folder = "adventures/pythonbeard"    
-chapters_folder = "chapters"
-adventure_chapters = "chapters_story.json"
-
-editable_file = "brain_module.py"
-
 if __name__ == "__main__":
     # Create the meta singletone
-    MetadataIO("meta.json")
+    MetadataIO(metafile)
 
     # Get chapters info
     chapter_key = MetadataIO().current_chapter
@@ -41,12 +37,8 @@ if __name__ == "__main__":
                            ".meta.json")) as metafile:
         meta = json.load(metafile)
     
-    # Create symlink
-    if os.path.lexists(editable_file):
-        os.remove(editable_file)
+    create_symlink(editable_file, chapter_title)
     
-    os.symlink(os.path.join(chapter_env,
-                            meta["symlink"]), editable_file)
     # Execute running file
     exec(open(os.path.join(chapter_env, 
                            meta["main"])).read())

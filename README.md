@@ -8,11 +8,9 @@ Run `python3 main.py`.
 
 The is a CLI there, read you task. 
 
-Run `python3 create_module.py`.
-
 write you code in 'brain_module.py'.
 
-Run `python3 create_module.py` again.
+Run `python3 create_module.py`.
 
 A hash will be printed.
 
