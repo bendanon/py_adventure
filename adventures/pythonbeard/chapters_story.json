@@ -276,7 +276,7 @@
             "riddle" : ["\"In the language of the mighty regex gods write a law which defines",
                         "a roman number\" return a regular expression string"],
             "hint"   : "Learn about regular expression",
-            "answer" : ""
+            "answer" : "613c4d6741"
         },
         {
             "key"    : 22,
