@@ -48,7 +48,7 @@ class Chapter:
         """
         pass
     
-    def wrap_up(self):
+    def shutdown(self):
         """
         Wrap up the chapter
         """

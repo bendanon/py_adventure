@@ -4,11 +4,15 @@ Lets learn python in a adventurous way.
 
 ## How To Play 
 
-Run `python3 main.py`
+Run `python3 main.py`.
 
-The is a CLI there, read you task and write you code in 'brain_module.py'.
+The is a CLI there, read you task. 
 
-Run `python3 create_module.py`
+Run `python3 create_module.py`.
+
+write you code in 'brain_module.py'.
+
+Run `python3 create_module.py` again.
 
 A hash will be printed.
 

@@ -47,4 +47,4 @@ class AdventureHandler(object):
             # Yield the current chapter.
             self.chapter_handler.show(chapter)
             # Wrap up the chapter.
-            chapter.wrap_up()
+            chapter.shutdown()
