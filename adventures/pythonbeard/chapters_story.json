@@ -241,6 +241,19 @@
         },
         {
             "key"    : 19,
+            "title"  : "Challenge of the Queen",
+            "story"  : ["\"INTRUDER!\" you here a loud shout from behind you. The submarine was",
+                        "dragged into a huge castle. the guards took you out and through you in",
+                        "a massive hall, in the edge of the hall you see the queen of Atlantis",
+                        "\"Who are you?\" she asked. You took out the note and she took it from you",
+                        "\"How? Why? You?\" she asked bamboozled \"OK then answer me that...\""],
+            "riddle" : ["\"In how many ways can you place 8 chess queens on an 8x8 chess board",
+                        "without them threatening each other?\""],
+            "hint"   : "This problem can be solved using a recursion, read want this is",
+            "answer" : "ba888e6361"
+        },
+        {
+            "key"    : 20,
             "title"  : "",
             "story"  : ["",
                         "",
