@@ -1,5 +1,3 @@
-import copy
-
 """
 def solve_queens(board_size, current_board=[],  index=0):
     

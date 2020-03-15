@@ -1,5 +1,3 @@
-import random
-
 from adventures.pythonbeard.chapters.challenge_of_the_queen.problem_solving_module import queens
 from utils.level_key import get_hash
 
