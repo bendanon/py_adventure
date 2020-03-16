@@ -2,6 +2,7 @@ import shutil
 from typing import Callable, Tuple
 
 from engine.types.aliases import InputHandler
+from definitions import os_name
 
 MIN_HEIGHT = 20 # The minimum height of the console
 
@@ -39,9 +40,12 @@ class TerminalController(object):
         """
         Wipe the screen clean.
         """
-        self.move(0)
-        print((" " * self.terminal_width + "\r\n") * self.terminal_height)
-        self.move(0)
+        if os_name == "linux":
+            self.move(0)
+            print((" " * self.terminal_width + "\r\n") * self.terminal_height)
+            self.move(0)
+        else:
+            pass
 
     def move(self, y: int):
         """
@@ -52,7 +56,10 @@ class TerminalController(object):
         :param y: the Y position.
         :type y: int
         """
-        print("\033[{};{}H".format(y, 0), end="")
+        if os_name == "linux":
+            print("\033[{};{}H".format(y, 0), end="")
+        else:
+            pass
     
     def get_input(self, input_callback: InputHandler = lambda a: (a, False) \
                                                             if a != "q" \
@@ -129,13 +136,16 @@ class TerminalController(object):
         Refrash the input view
         """
         # Wipe input screen
-        self.move(self.input_pos + 1)
-        print((" " * self.terminal_width + "\r\n") * (self.terminal_height - self.input_pos - 2))
+        if os_name == "linux":
+            self.move(self.input_pos + 1)
+            print((" " * self.terminal_width + "\r\n") * (self.terminal_height - self.input_pos - 2))
 
-        self.move(self.input_pos + 1)
-        left_rows = self.terminal_height - self.input_pos - 3
+            self.move(self.input_pos + 1)
+            left_rows = self.terminal_height - self.input_pos - 3
 
-        print("\r\n".join(self.input_array[-left_rows:]))
+            print("\r\n".join(self.input_array[-left_rows:]))
+        else:
+            print(self.input_array[-1])
     
     def enable_hidden_text(self):
         """
