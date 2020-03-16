@@ -1,7 +1,8 @@
 from engine.IO.metadata import MetadataIO
 from engine.IO.adventure import AdventureIO
-from utils.symlink_factory import create_symlink
-from definitions import *
+from utils.symlink_factory import update_symlink
+from definitions import metafile, adventure_chapters, adventure_folder, \
+                        chapters_folder, editable_file
 
 import shutil
 import os
@@ -37,7 +38,7 @@ if __name__ == "__main__":
                            ".meta.json")) as metafile:
         meta = json.load(metafile)
     
-    create_symlink(editable_file, chapter_title)
+    update_symlink(editable_file, chapter_title)
     
     # Execute running file
     exec(open(os.path.join(chapter_env, 

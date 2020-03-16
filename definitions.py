@@ -8,3 +8,4 @@ editable_file = "brain_module.py"
 adventure_chapters = "chapters_story.json"
 
 metafile = "meta.json"
+os_name = "windows"
