@@ -16,4 +16,4 @@ def translate_word(subconscious: Subconscious, word: str) -> str:
     :rtype: str.
     """
     # Your code here:
-    return subconscious.get_dictionary(Language.Atlasian)[word]
+    pass

@@ -15,4 +15,4 @@ def speak() -> str:
     :return: constant word that Pythonbeard will say.
     """
     # Your code here:
-    return "Ahoy matey"
+    pass

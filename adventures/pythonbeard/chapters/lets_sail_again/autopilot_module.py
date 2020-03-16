@@ -12,4 +12,4 @@ def sail_height(speed: float) -> float:
     :rtype: float
     """
     # Your code here:
-    return 1 if ms_to_kmh(speed) < 11 else 0.5 if ms_to_kmh(speed) > 20 else 0.75
+    pass

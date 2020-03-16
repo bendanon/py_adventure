@@ -18,8 +18,7 @@ def get_command(location_type: int) -> int:
     :type subconscious: Subconscious
     """
     # Your code here:
-    return STOP if location_type is LocationTypes.WHALE_SPOT else \
-        SAIL_FAST if location_type is LocationTypes.OPEN_SEA else SAIL_SLOW
+    pass
 
 def sail_at(current_location: Location) -> str:
     """

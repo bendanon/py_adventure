@@ -20,6 +20,4 @@ def roman_to_decimal(number: str) -> int:
     :rtype: int
     """
     # Your code here:
-    return sum([(-ROMAN[sign]) if   ROMAN[next_sign] > ROMAN[sign] 
-                               else ROMAN[sign]
-                for sign, next_sign in zip(number, number[1:] + "I")])
+    pass

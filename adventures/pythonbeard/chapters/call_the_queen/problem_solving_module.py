@@ -12,6 +12,4 @@ def call_queen(ip: str, port: int, expected_text: str):
     :type expected_text: str
     """
     # Your code here:
-    s = socket.socket()
-    s.connect((ip, port))
-    s.send(expected_text.encode('utf8'))
+    pass

@@ -11,4 +11,4 @@ def search_string(string: str, filename: str) -> bool:
     :rtype: bool
     """
     # Your code here:
-    return any([string in line.split() for line in open(filename).readlines()])
+    pass

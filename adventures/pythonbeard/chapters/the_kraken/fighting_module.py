@@ -17,4 +17,4 @@ def find_weak_spots(points: List[StrengthPoint]) -> List[StrengthPoint]:
     :rtype: List[StrengthPoint]
     """
     # Your code here:
-    return sorted(points, key=lambda sp: sp.strength)[:10]
+    pass

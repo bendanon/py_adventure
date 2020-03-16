@@ -39,4 +39,4 @@ def compare_widths(ships_width: int, paths_width: int) -> bool:
     :rtype: bool
     """
     # Your code here:
-    return ships_width < paths_width
+    pass

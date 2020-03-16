@@ -6,6 +6,5 @@ from engine.strategies.print_strategy import print
 
 if __name__ == "__main__":
     # You're code here:
-    print("hello world")
 
     pass # is used when you need to fix indentation and there is nothing to write

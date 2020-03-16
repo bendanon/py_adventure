@@ -15,4 +15,4 @@ def brightest_star(stars: List[Star]) -> Star:
     :rtype: Start(int)
     """
     # Your code here:
-    return max(stars)
+    pass

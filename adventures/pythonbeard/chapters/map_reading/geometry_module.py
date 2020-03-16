@@ -14,4 +14,4 @@ def sort_points(points: List[Point]) -> List[Point]:
     :rtype: List[Point]
     """
     # Your code here:
-    return sorted(points, key=lambda point: (point.x ** 2 + point.y ** 2) ** .5)
+    pass

@@ -33,4 +33,4 @@ def get_name(subconscious: Subconscious) -> str:
     :type subconscious: Subconscious
     """
     # Your code here:
-    return subconscious.get_names()[0]
+    pass

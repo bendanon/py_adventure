@@ -18,5 +18,4 @@ def center_of_polygon(points: List[Point]) -> Point:
     :rtype: Point
     """
     # Your code here:
-    return Point(sum([point.x for point in points]) / len(points), 
-                 sum([point.y for point in points]) / len(points))
+    pass

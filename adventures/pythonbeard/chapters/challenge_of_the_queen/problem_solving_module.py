@@ -36,4 +36,4 @@ def queens() -> int:
     :rtype: int
     """
     # Your code here:
-    return solve_queens()
+    pass

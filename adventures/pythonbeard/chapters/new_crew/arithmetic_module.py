@@ -16,13 +16,4 @@ def create_crew(hire_list: List[Contendent], given_money: int) -> List[Contenden
     :rtype: List[Contendent]
     """
     # Your code here:
-    sorted_list = sorted(hire_list, key=lambda contendent: contendent.price)
-
-    count = 0
-    current_price = 0
-    for contendent in sorted_list:
-        current_price += contendent.price
-        if current_price <= given_money:
-            count += 1
-    
-    return sorted_list[:count]
+    pass

@@ -39,4 +39,4 @@ def find_open_path(paths: List[Path]) -> Path:
     :rtype: Path
     """
     # Your code here:
-    return list(filter(lambda path: path.status is Status.OPEN, paths))[0]
+    pass

@@ -16,4 +16,4 @@ def search_parking(ship: Ship, shore: List[int]) -> Index:
     :rtype: Index(int)
     """
     # Your code here:
-    return shore.index(min(spot for spot in shore if spot > ship.legnth))
+    pass

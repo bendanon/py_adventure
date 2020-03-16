@@ -19,10 +19,4 @@ def decipher(string: str, key: int) -> str:
     :rtype: str
     """
     # Your code here:
-    return "".join([chr((ord(ch) - ord(lower_starting_char 
-                                        if ch.islower() 
-                                        else upper_starting_char) - key) % \
-                    charecters + ord(lower_starting_char 
-                                        if ch.islower() 
-                                        else upper_starting_char)) 
-                    if ch.isalpha() else ch for ch in string])
+    pass
