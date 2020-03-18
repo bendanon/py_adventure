@@ -11,8 +11,8 @@ def brightest_star(stars: List[Star]) -> Star:
 
     :param stars: list of all the stars.
     :type stars: List[Star]
-    :return: The brightest start from the given list.
-    :rtype: Start(int)
+    :return: The brightest star from the given list.
+    :rtype: Star(int)
     """
     # Your code here:
     pass
