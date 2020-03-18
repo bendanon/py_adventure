@@ -1,3 +1,6 @@
+import subprocess
+import os
+
 from typing import Callable, Generator, Tuple
 
 from engine.types.chapter import Chapter
@@ -5,7 +8,7 @@ from engine.types.aliases import InputHandler, InputResult
 from UI.chapter_handler import IChapterHandler
 from UI.terminal_controller import TerminalController
 from utils.roman_numeric import to_roman
-
+from definitions import os_name
 
 class CliChapterHandler(IChapterHandler):
     """
@@ -44,6 +47,10 @@ class CliChapterHandler(IChapterHandler):
                 return True, ""
             if user_input == "skip":
                 return False, ""
+            if user_input == "run":
+                subprocess.call(["python3" if os_name == "linux" else "python", 
+                                 (os.path.join(os.path.curdir, "create_module.py"))])
+                return True, ""
             else:
                 chaper_result = chapter.check_answer(user_input)
                 return not chaper_result, "Well done!" if chaper_result \

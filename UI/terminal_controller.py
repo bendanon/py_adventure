@@ -117,7 +117,7 @@ class TerminalController(object):
 
         # Set first text
         self.print_at(self.first_text, self.first_text_pos)
-
+        print("")
         # Set secondary text
         self.print_at(self.second_text, self.second_text_pos)
 
